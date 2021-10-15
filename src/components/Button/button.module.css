@@ -1,0 +1,21 @@
+.button {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 0.9rem;
+  height: 2.6rem;
+  cursor: pointer;
+  padding: 0 1rem;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: white;
+  background-color: #1e4c5d;
+}
+.button:hover {
+  background-color: #245364;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  color: #a9a9ac;
+  background-color: #e4e2e2;
+}

@@ -1,0 +1,51 @@
+.switch_section {
+  padding: 0.4rem;
+  outline: none;
+}
+
+.switch_section p {
+  margin-top: 0;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+.enabled:focus,
+.enabled:focus-within {
+  background-color: #e3f6f7;
+}
+
+.btn {
+  border: 2px solid #1e4c5d;
+  border-left: none;
+  color: #1e4c5d;
+  background-color: white;
+  width: 4rem;
+  height: 2rem;
+  font-size: 0.9rem;
+  padding: 0.2rem;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #1e4c5d;
+  color: white;
+}
+
+.switch_section .btn:disabled {
+  color: rgb(110, 107, 107);
+  border-color: #d6d8db;
+  cursor: not-allowed;
+}
+
+.switch button:first-of-type {
+  border-left: 2px solid #1e4c5d;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.switch button:last-of-type {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
